@@ -2,22 +2,11 @@
 layout: page
 title: "Getting Started mit TPO42"
 permalink: /getting-started
+excerpt: "Das TPO42-Template ist in einem frühen Work-In-Progress Stadium. Als allererste Zielgruppe peilen wir Hands-On Technical Product Owner an, die das Documentation as Code Paradigma genauso lieben, wie wir. GitOps ist der Weg."
 header:
   overlay_image: /assets/images/header.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
-  excerpt: "Setup, Voraussetzungen und Installation des tpo42 Frameworks"
 ---
-
-<section class="site-section first-section">
-  <div class="container" data-aos="fade-up">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Getting Started</h1>
-        <p class="lead">Das tpo42-Template ist in einem frühen Work-In-Progress Stadium. Als allererste Zielgruppe peilen wir Hands-On Technical Product Owner an, die das <strong>Documentation as Code</strong> Paradigma genauso lieben, wie wir. GitOps ist der Weg.</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 <hr class="section-sep">
 
@@ -60,9 +49,9 @@ header:
     <div class="row">
       <div class="col-md-12">
         <h2>Quick Start</h2>
-        <p>Detaillierte Anweisungen finden Sie in unserem <a href="https://github.com/tpo42/tpo42-templates/blob/main/README.adoc">GitHub README</a>.</p>
-        <pre><code>git clone https://github.com/tpo42/tpo42-templates.git
-cd tpo42-templates
+        <p>Detaillierte Anweisungen finden Sie in unserem <a href="https://github.com/TPO42/TPO42-templates/blob/main/README.adoc">GitHub README</a>.</p>
+        <pre><code>git clone https://github.com/TPO42/TPO42-templates.git
+cd TPO42-templates
 # Folgen Sie den Anweisungen im README.adoc</code></pre>
       </div>
     </div>

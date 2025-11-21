@@ -14,10 +14,10 @@ required by German Law. Contact me or use translation tools for an english versi
 Jens Rehsack
 
 #### Kontakt
-e-Mail: info@tpo42.de
+e-Mail: info@TPO42.de
 <br>  
   
-[Website](https://www.tpo42.de/)   
+[Website](https://www.TPO42.de/)   
 
 
   

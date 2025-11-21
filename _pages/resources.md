@@ -2,10 +2,10 @@
 layout: page
 title: "Ressourcen"
 permalink: /resources
+excerpt: "Beispiele, Dokumentation und weitere Links"
 header:
   overlay_image: /assets/images/header.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
-  excerpt: "Beispiele, Dokumentation und weitere Links"
 gallery:
   - url: /assets/images/header.webp
     image_path: /assets/images/header.webp
@@ -34,18 +34,18 @@ gallery:
         <div class="box-container">
           <div class="box box--info box-half" data-aos="zoom-in">
             <h3>Dokumentation</h3>
-            <p>Ausführliche Dokumentation des tpo42 Frameworks.</p>
+            <p>Ausführliche Dokumentation des TPO42 Frameworks.</p>
             <a href="#" class="btn btn--info">Lesen</a>
           </div>
           <div class="box box--success box-half" data-aos="zoom-in">
             <h3>Blog</h3>
-            <p>Aktuelle Artikel und Neuigkeiten rund um tpo42.</p>
+            <p>Aktuelle Artikel und Neuigkeiten rund um TPO42.</p>
             <a href="#" class="btn btn--success">Besuchen</a>
           </div>
           <div class="box box--warning box-half" data-aos="zoom-in">
             <h3>GitHub</h3>
-            <p>Der Quellcode und die Templates des tpo42 Frameworks.</p>
-            <a href="https://github.com/tpo42/tpo42-templates" class="btn btn--warning">Ansehen</a>
+            <p>Der Quellcode und die Templates des TPO42 Frameworks.</p>
+            <a href="https://github.com/TPO42/TPO42-templates" class="btn btn--warning">Ansehen</a>
           </div>
         </div>
       </div>

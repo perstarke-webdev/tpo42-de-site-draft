@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "tpo42 Framework"
+  - title: "TPO42 Framework"
     url: /tpo42-framework
   - title: "Getting Started"
     url: /getting-started
