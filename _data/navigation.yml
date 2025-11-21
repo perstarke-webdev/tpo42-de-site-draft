@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Home"
-    url: /
   - title: "TPO42 Framework"
     url: /tpo42-framework
   - title: "Getting Started"
