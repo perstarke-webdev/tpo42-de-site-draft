@@ -5,6 +5,7 @@ permalink: /resources
 header:
   overlay_image: /assets/images/header.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
+  subtitle: "Beispiele, Dokumentation und weitere Links"
 gallery:
   - url: /assets/images/header.webp
     image_path: /assets/images/header.webp
@@ -17,20 +18,7 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-<section class="site-section first-section" data-aos="fade-up">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Ressourcen</h1>
-        <p class="lead">Hier finden Sie eine Sammlung von nützlichen Links und Ressourcen rund um das tpo42 Framework.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<hr class="section-sep">
-
-<section class="site-section">
+<section class="site-section first-section">
   <div class="container" data-aos="fade-up">
     <h2>Examples/Gallery</h2>
     {% include gallery %}
@@ -39,7 +27,7 @@ gallery:
 
 <hr class="section-sep">
 
-<section class="site-section alternative-color">
+<section class="site-section">
   <div class="container">
     <div class="row">
       <div class="col-md-12">

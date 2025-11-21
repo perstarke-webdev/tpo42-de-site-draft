@@ -5,6 +5,7 @@ permalink: /getting-started
 header:
   overlay_image: /assets/images/header.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
+  subtitle: "Setup, Voraussetzungen und Installation des tpo42 Frameworks"
 ---
 
 <section class="site-section first-section">
