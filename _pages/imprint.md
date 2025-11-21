@@ -5,29 +5,26 @@ permalink: /imprint
 ---
 
 #### German Imprint
-This imprint & privacy note is in German, as I (Per Starke, the responsible person) am German, and it's therefore
+This imprint & privacy note is in German, as the responsible person is German, and it's therefore
 required by German Law. Contact me or use translation tools for an english version. 
 
 <hr>
 
 #### Anbieter und Verantwortliche Person
-Per Starke, Willi-Lauf Allee 43, D-50858 Köln
-
+Jens Rehsack
 
 #### Kontakt
-Telefon: +49 160 93268817
-<br>
-e-Mail: per_at_starke-team.de
+e-Mail: info@tpo42.de
 <br>  
   
-[Website](https://perstarke-webdev.de/)   
-[Blog](https://blog.perstarke-webdev.de/)
+[Website](https://www.tpo42.de/)   
+
 
   
 ## Datenschutzerklärung
 
 #### Geltungsbereich
-Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Per Starke auf dieser Website (im folgenden “Angebot”) auf.<br />
+Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Jens Rehsack auf dieser Website (im folgenden “Angebot”) auf.<br />
 <br />
 Die rechtlichen Grundlagen des Datenschutzes finden sich in der Datenschutzgrundverordnung (DSGVO), dem Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
 <br />
@@ -41,15 +38,15 @@ Der Anbieter verwendet diese Protokolldaten *nicht*!
 
 Der Anbieter behält sich jedoch vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen Nutzung besteht.
 
-#### GitHub Pages und CDN-Nutzung:
+#### CDN-Nutzung:
 
-Diese Website wird über [GitHub Pages](https://pages.github.com/) bereitgestellt, einem von GitHub, Inc. angebotenen Dienst, der es ermöglicht, Webseiteninhalte effizient und schnell weltweit zu verteilen. Die Verwendung von GitHub Pages integriert automatisch ein Content Delivery Network (CDN), um die Ladezeiten der Website zu optimieren und die Verfügbarkeit von Inhalten sicherzustellen.
+Diese Website wird über ein Content Delivery Network (CDN) bereitgestellt, um die Ladezeiten der Website zu optimieren und die Verfügbarkeit von Inhalten sicherzustellen.
 
 Durch die Nutzung dieser Website erklären Sie sich damit einverstanden, dass einige Ihrer nicht-persönlichen Daten, wie die IP-Adresse und Informationen zur Seitennutzung, über das CDN übertragen werden können, um eine optimale Leistung der Website zu gewährleisten. Diese Datenübertragung erfolgt in Übereinstimmung mit den geltenden Datenschutzbestimmungen.
 
 Wir respektieren Ihre Privatsphäre und ergreifen angemessene Maßnahmen, um Ihre persönlichen Informationen zu schützen. Bitte beachten Sie unsere Datenschutzerklärung für weitere Informationen darüber, wie wir mit Ihren Daten umgehen.
 
-Bei Fragen oder Anliegen zur Verwendung von GitHub Pages und des CDNs auf dieser Website können Sie sich gerne an uns wenden.
+Bei Fragen oder Anliegen zur Verwendung des CDNs auf dieser Website können Sie sich gerne an uns wenden.
 
 #### Kontaktaufnahme
 Bei der Kontaktaufnahme mit dem Anbieter (zum Beispiel per Kontaktformular oder E-Mail) werden die Angaben des Nutzers zwecks Bearbeitung der Anfrage sowie für den Fall, dass Anschlussfragen entstehen, gespeichert.
