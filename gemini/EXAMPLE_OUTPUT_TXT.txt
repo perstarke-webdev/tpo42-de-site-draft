@@ -1,0 +1,746 @@
+﻿EXAMPLE_OUTPUT
+
+
+
+
+This file demonstrates a complete, high-quality Starter Homepage draft generated according to PSWD standards, including:
+* README
+
+* index.html
+
+* custom head/footer
+
+* skin file
+
+* custom CSS
+
+* 404 page
+
+* config.yml
+
+Gemini should use this exampe to understand tone, structure, code style, and integration patterns.
+
+
+
+
+
+
+Readme.md
+# Sandra Seidler Personal Training Site
+
+
+Repository for the website for Sandra Seidler Personal Training
+
+
+## Credits
+
+
+Rendered using Jekyll and GitHub Pages.
+
+
+## License
+This work is copyrighted - no parts of it may be copied, stored or otherwise re-used without prior written consent
+of the author [Per Starke](mailto:info@perstarke-webdev.de)
+
+
+Index.html
+---
+title: "Erreiche Deine Ziele – und werde stärker!"
+layout: page
+permalink: /
+
+
+header:
+   overlay_image: /assets/images/header.webp
+   overlay_filter: rgba(0, 0, 0, 0.3)
+   actions:
+       - label: "Schreib mir eine Nachricht <i class='fas fa-handshake'></i>"
+         url: /#kontakt
+         blank: false
+
+
+excerpt: "**Individuelles Personal Training für mehr Kraft, Beweglichkeit und Lebensqualität – angepasst an Deine Ziele, Deinen Körper und Deinen Alltag.**"
+---
+
+
+<!-- INTRO SECTION -->
+<section class="site-section first-section" id="intro">
+   <h1 data-aos="flip-up">Erreiche Deine Ziele – und werde stärker</h1>
+
+
+   <div class="itr-container" data-aos="fade-up">
+       <div class="itr-image-container">
+           <img src="/assets/images/ziele.webp" alt="Personal Training mit Sandra Seidler" class="itr-image" style="width:400px">
+       </div>
+       <div class="itr-text">
+           <p>Möchtest Du stärker, fitter und beweglicher werden? Deinen Körper in Form bringen, Körperfett verlieren, Gefühl und Kraft verbessern? Oder Schmerzen loswerden, Deine Haltung verbessern und Dich endlich wieder gesund fühlen?</p>
+           <p>Dann bist Du hier genau richtig. Ich arbeite mit Einsteiger:innen ebenso wie mit erfahrenen Athlet:innen und Menschen mit körperlichen Einschränkungen. Gemeinsam finden wir den Weg, der zu Dir passt – klar, effektiv und mit Freude an Bewegung.</p>
+           <p><strong class="purple">Ich helfe Dir, Deine Ziele erfolgreich und nachhaltig zu erreichen.</strong></p>
+       </div>
+   </div>
+</section>
+
+
+<hr class="section-sep">
+
+
+<!-- ZUSAMMENARBEIT -->
+<section class="site-section alternative-color" id="zusammenarbeit">
+   <h1 data-aos="flip-up">Zusammenarbeit</h1>
+
+
+   <div class="notice--primary" data-aos="fade-left">
+       <p style="font-size: 1.25em;">
+           Trainiere optimal und effektiv – mit einem speziell auf Dich zugeschnittenen Trainingsplan. Bei mir gibt es keine Standardpläne: alles wird individuell mit Dir abgestimmt, damit Du langfristig Fortschritte erzielst und motiviert bleibst.
+       </p>
+   </div>
+
+
+   <div class="itr-container" data-aos="fade-right">
+       <div class="itr-text">
+           <p>Durch feste Trainingstermine mit mir bleibst Du konsequent am Ball. Ich zeige Dir, wie Du jede Übung sauber und sicher ausführst, damit Du Dich bei jeder Bewegung wohl und stark fühlst. So beugst Du Beschwerden und altersbedingten Begleiterscheinungen gezielt vor – und gewinnst neue Lebensqualität.</p>
+           <p>Gerade Rückenschmerzen lassen sich durch ein angepasstes, ganzheitliches Training deutlich reduzieren. Gleichzeitig stärkst Du nicht nur Deinen Körper, sondern auch Dein Mindset und Selbstvertrauen.</p>
+           <p><strong class="green">Bleib dran – und entdecke, wie stark Du wirklich bist.</strong></p>
+           <a href="#kontakt" class="btn btn--success">
+               Schreib mir uns lass uns zusammenarbeiten!
+           </a>
+       </div>
+       <div class="itr-image-container">
+           <img src="/assets/images/training-im-studio.webp" alt="Training im Studio" class="itr-image" style="width:500px">
+       </div>
+   </div>
+
+
+   <hr style="border: none; border-top: 2px solid #ecb390; width: 70%; margin: 1.5em auto;">
+
+
+   <h2 style="text-align:center; margin-bottom:1em; border-bottom: none;" data-aos="flip-down">So läuft unser Training ab</h2>
+
+
+   <div class="steps-container">
+       <!-- Schritt 1 -->
+       <div class="step" data-aos="zoom-in">
+           <div class="step-number">1</div>
+           <div class="step-text">
+               <p><strong>Erstgespräch (Kennenlernen)</strong><br>
+                   In einem unverbindlichen Erstgespräch lernen wir uns kennen und besprechen Deine konkrete Situation, Deine Wünsche und Ziele – sowie, wie viel Zeit Du investieren kannst und möchtest.
+                   Wenn es passt, vereinbaren wir im Anschluss einen Termin für <em>Check-up &amp; Probetraining</em>.
+               </p>
+           </div>
+       </div>
+
+
+       <!-- Schritt 2 -->
+       <div class="step" data-aos="zoom-in">
+           <div class="step-number" >2</div>
+           <div class="step-text">
+               <p><strong>Check-up &amp; Probetraining</strong><br>
+                   Vor dem Termin erhältst Du einen Anamnesebogen, den Du ausgefüllt mitbringst.
+                   Beim Check-up führe ich mit Dir Beweglichkeitstests durch und kann auf Wunsch Deinen Körperfettanteil messen.
+                   Außerdem berate ich Dich umfänglich – nicht nur zum Training, sondern auch zu Ernährungsfragen und sinnvollen Supplementen.
+                   Im Probetraining lernst Du meine Arbeitsweise praktisch kennen und bekommst ein Gefühl für das Coaching.
+               </p>
+           </div>
+       </div>
+
+
+       <!-- Schritt 3 -->
+       <div class="step" data-aos="zoom-in">
+           <div class="step-number">3</div>
+           <div class="step-text">
+               <p><strong>Individuelle Trainingsplanung</strong><br>
+                   Auf Basis von Check-up und Probetraining erstelle ich Deinen persönlichen Trainingsplan und passe ihn bei Bedarf regelmäßig an.
+                   Für Fragen oder kleine Anpassungen bin ich auch zwischen den gemeinsamen wöchentlichen Einheiten per WhatsApp oder E-Mail erreichbar.
+               </p>
+           </div>
+       </div>
+   </div>
+
+
+   <div class="notice--primary" data-aos="fade-up" style="margin-top:2em;">
+       <p style="font-size:1.15em;">
+           Wir trainieren dort, wo es für Dich am besten passt – bei Dir zu Hause (Equipment bringe ich mit), outdoor, in Deinem Studio oder in meinen Trainingsräumen.
+       </p>
+   </div>
+
+
+
+
+   <br>
+</section>
+
+
+
+
+<hr class="section-sep">
+
+
+<!-- ÜBER MICH -->
+<section class="site-section" id="ueber-mich">
+   <h1 data-aos="flip-up">Über Mich</h1>
+
+
+   <div class="itr-container" data-aos="fade-up">
+       <div class="itr-image-container">
+           <img src="/assets/images/ueber-mich.webp" alt="Sandra Seidler, Personal Trainerin" class="itr-image" style="width:400px">
+       </div>
+       <div class="itr-text">
+           <p>Ich bin <strong>Sandra</strong> aus Köln – diplomierte Sport- und Fitnesstrainerin mit Leidenschaft für Bewegung, Gesundheit und persönliches Wachstum. Krafttraining und Ausdauer begleiten mich seit vielen Jahren und haben mir gezeigt, wie sehr Training nicht nur den Körper, sondern auch das Mindset verändert.</p>
+
+
+           <p>Im Jahr 2024 habe ich mein Diplom an der Deutschen Sportakademie abgeschlossen. Dieses umfasst mehrere Lizenzen – darunter die <strong>Fitnesstrainer B-Lizenz</strong>, die <strong>Ausdauer A-Lizenz</strong>, die <strong>Functional-Trainer A-Lizenz</strong> und die <strong>medizinische Fitnesstrainer A-Lizenz</strong>. Zusätzlich habe ich beim IST-Institut die <strong>Bodybuilding A-Lizenz</strong> erworben und im Bereich <strong>Yin Yoga</strong> meine Kenntnisse erweitert.</p>
+
+
+       </div>
+   </div>
+
+
+   <hr style="border: none; border-top: 2px solid #7b8f67; width: 80%; margin: 1.5em auto;">
+
+
+   <p data-aos="fade-up">Heute verbinde ich dieses Wissen mit meiner Erfahrung im Kraftsport, Cardio, Mobility-Training und in der Ernährungsberatung. Mein Ziel ist es, Menschen auf ihrem Weg zu mehr Kraft, Energie und Lebensqualität zu begleiten – zuverlässig, empathisch und mit einem klaren Fokus auf nachhaltige Ergebnisse.</p>
+
+
+   <p data-aos="fade-up"><strong class="purple">Ich freue mich darauf, Dich kennenzulernen!</strong></p>
+
+
+   <a href="#kontakt" class="btn btn--primary" data-aos="fade-up">
+       Schreib mir eine Nachricht <i class='fas fa-handshake'></i>
+   </a>
+   <br><br>
+
+
+</section>
+
+
+
+
+<hr class="section-sep">
+
+
+<!-- PREISE -->
+<section class="site-section alternative-color" id="preise">
+   <h1 data-aos="flip-up">Preise</h1>
+
+
+   <div class="box-container">
+       <div class="box box-full" data-aos="zoom-in">
+           <h3>Erstgespräch & Probetraining</h3>
+           <p class="price">50 €, 2 Stunden inkl. Check-up</p>
+           <p>Im Erstgespräch besprechen wir Deine Ziele, analysieren Deine Bewegungsmuster und testen erste Übungen. Danach entscheidest Du, wie es weitergeht.</p>
+       </div>
+
+
+       <div class="box box-half" data-aos="zoom-in">
+           <h3>4 Wochen | 1:1 Coaching</h3>
+           <p class="price">49 € / Woche</p>
+           <ul style="list-style-type: none; padding-left: 0;">
+               <li><i class="fas fa-check-circle"></i> Individuelles Training (1x wöchentlich)</li>
+               <li><i class="fas fa-check-circle"></i> Trainingsplan und Betreuung</li>
+               <li><i class="fas fa-check-circle"></i> Fortschritts-Check und Anpassungen</li>
+           </ul>
+
+
+       </div>
+
+
+       <div class="box box-half" data-aos="zoom-in">
+           <h3>Langzeitbetreuung</h3>
+           <p>Für Kund:innen, die länger trainieren möchten, erstelle ich individuelle Angebote mit flexiblen Laufzeiten. Sprich mich einfach an.</p>
+       </div>
+   </div>
+
+
+   <br>
+</section>
+
+
+<hr class="section-sep">
+
+
+<!-- KONTAKT -->
+<section class="site-section" id="kontakt">
+   <h1 data-aos="flip-up">Kontakt</h1>
+   <p data-aos="fade-up" class="page__lead">Für all Deine Fragen, schreib mir gerne eine Email. Ich antworte Dir zeitnah, und freue mich von Dir zu hören.</p>
+
+
+   <div class="contact-buttons" data-aos="fade-up" style="text-align: center; margin-top: 2em;">
+       <a href="mailto:info@sandraseidler-pt.de" class="btn btn--info">
+           <i class="fas fa-envelope"></i> Email: info@sandraseidler-pt.de
+       </a>
+   </div>
+</section>
+
+
+
+
+Custom head
+<!-- start custom head snippets -->
+
+
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+
+<!-- end custom head snippets →
+
+
+Custom Footer
+<!-- start custom footer snippets -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+   AOS.init({
+       duration: 700,
+       offset: 150,
+       once: true
+   });
+</script>
+
+
+<!-- end custom footer snippets -->
+
+
+
+
+_contrast.scss
+/* ==========================================================================
+  Sandra Seidler Skin
+  ========================================================================== */
+
+
+/* Colors */
+$text-color: #000000 !default;
+$muted-text-color: $text-color !default;
+
+
+/* Brand & accent colors */
+$primary-color: #4b0f55 !default;          // dark pink
+$secondary-color: #bee5fa !default;        // turquoise
+$tertiary-color: #96aa7e !default;         // matt green
+$quaternary-color: #ecb390 !default;       // orange-beige
+
+
+
+
+$info-color: $secondary-color;
+$success-color: $tertiary-color;
+
+
+/* Layout & border */
+$border-color: mix(#fff, $text-color, 75%) !default;
+$footer-background-color: #4b0f55 !default; // dark pink footer background
+$link-color: $primary-color !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $primary-color !default;
+$navicon-link-color-hover: mix(#fff, $primary-color, 80%) !default;
+
+
+/* Syntax highlighting (base16 contrast scheme) */
+$base00: #000000 !default;
+$base01: #242422 !default;
+$base02: #484844 !default;
+$base03: #6c6c66 !default;
+$base04: #918f88 !default;
+$base05: #b5b3aa !default;
+$base06: #d9d7cc !default;
+$base07: #fdfbee !default;
+$base08: #ff6c60 !default;
+$base09: #e9c062 !default;
+$base0a: #ffffb6 !default;
+$base0b: #a8ff60 !default;
+$base0c: #c6c5fe !default;
+$base0d: #96cbfe !default;
+$base0e: #ff73fd !default;
+$base-0f: #b18a3d !default;
+
+
+/* Notices and footer overrides */
+.page__content {
+ .notice,
+ .notice--primary,
+ .notice--info,
+ .notice--warning,
+ .notice--success,
+ .notice--danger {
+   color: $text-color;
+ }
+}
+
+
+.page__footer {
+ color: #ffffff !important; // override for contrast
+ background-color: $footer-background-color !important;
+}
+
+
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+ color: inherit;
+}
+
+
+
+
+
+
+Custom-styles.css
+.green {
+   color: #7b8f67 !important;
+}
+
+
+.purple {
+   color: #4b0f55 !important;
+}
+
+
+.price {
+   color: #7b8f67 !important;
+   font-weight: bold;
+   font-style: italic;
+   font-size: 0.8em !important;
+}
+
+
+
+
+.steps-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 2em;
+   margin-top: 2em;
+}
+
+
+.step {
+   background: #fff;
+   border-radius: 12px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+   padding: 1.5em;
+   flex: 1 1 280px;
+   max-width: 500px;
+   text-align: left;
+   position: relative;
+}
+
+
+.step-number {
+   background: #7b8f67;
+   color: #fff;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 50%;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.2em;
+   margin-bottom: 1em;
+}
+
+
+.step-text p {
+   margin: 0;
+   font-size: 1em;
+   color: #333;
+}
+
+
+@media (max-width: 768px) {
+   .steps-container {
+       flex-direction: column;
+       align-items: center;
+   }
+}
+
+
+
+
+404.html
+
+
+---
+layout: page
+title: ""
+permalink: /404.html
+hide: true
+---
+
+
+<br><br><br><br><br><br>
+
+
+<img style="max-width: 50vw" src="/assets/images/ugly-404.webp" alt="404"/>
+
+
+
+
+<h1 class="berry">Seite nicht gefunden</h1>
+
+
+Oops - Du wolltest eine Seite, die es leider nicht gibt...<br><br>
+
+
+Bitte sag mir per <a href="mailto: info@perstarke-webdev.de">Email an info_at_perstarke-webdev.de</a> Bescheid, damit ich das korrigieren kann, falls diese Seite existieren sollte.
+
+
+
+
+Config.yml
+
+
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+
+
+
+oneflow-skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Sandra Seidler Personaltraining"
+title_separator          : "-"
+subtitle                 : " " # Displayed in the masthead below the title, use " " for no subtitle
+url                      : "" # the base hostname & protocol for your site
+baseurl                  : ""
+repository               : "" # GitHub username/repo-name
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/logo.webp" # Site logo displayed in the masthead
+show-popup               : true # set to false if you don't need / want to show a cookie-banner / cdn-usage popup.
+                               # Edit the popup itself in the respective /includes file
+masthead_title           : " "  # Overrides the website title displayed in the masthead, use " " for no title
+sticky-masthead          : true # if true, masthead/navigation bar will stay visible when the user scrolls down.
+                               # if false, it will move out of sight when scrolling.
+masthead-opacity         : 0.85 # set to any value between 0 and 1.
+                               # 0.8-0.9 is a good recommended starting point. Only relevant if masthead is sticky.
+background-image         : # '/assets/images/header.webp' # Remove / out-comment, if you don't want a background image
+background-image-mobile  : # '/assets/images/header.webp' # If you want a different (e.g upright) background image for mobile
+background-image-overlay : rgba(255, 255, 255, 0.5) # Set overlay for the background image
+
+
+
+
+
+
+# Site Footer.
+footer:
+ links: # replace the URL's with your own for every link you want to have in your footer.
+   - label: "Email"
+     icon: "fa fa-envelope"
+     url: "mailto:info@sandraseidler-pt.de"
+   - label: "Instagram"
+     icon: "fab fa-instagram"
+     url: "https://www.instagram.com/sandra.seidler75/"
+   - label: "TikTok"
+     icon: "fab fa-tiktok"
+     url: "https://www.instagram.com/sandra.seidler75/"
+   - label: "YouTube"
+     icon: "fab fa-youtube"
+     #url:
+   - label: "Spotify"
+     icon: "fab fa-spotify"
+     #url:
+ copyright: "Sandra Seidler" # Replace with your own
+ creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
+     name: "PSWD"
+     url: "https://perstarke-webdev.de"
+
+
+
+
+
+
+# Reading Files
+include:
+ - .htaccess
+ - _pages
+exclude:
+ - "*.sublime-project"
+ - "*.sublime-workspace"
+ - vendor
+ - .asset-cache
+ - .bundle
+ - .jekyll-assets-cache
+ - .sass-cache
+ - assets/js/plugins
+ - assets/js/_main.js
+ - assets/js/vendor
+ - Capfile
+ - CHANGELOG
+ - config
+ - Gemfile
+ - Gruntfile.js
+ - gulpfile.js
+ - LICENSE
+ - log
+ - node_modules
+ - package.json
+ - package-lock.json
+ - Rakefile
+ - README
+ - tmp
+keep_files:
+ - .git
+ - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "
+
+
+"
+incremental: false
+
+
+
+
+# Markdown Processing
+kramdown:
+ input: GFM
+ hard_wrap: false
+ auto_ids: true
+ footnote_nr: 1
+ entity_output: as_char
+ toc_levels: 1..6
+ smart_quotes: lsquo,rsquo,ldquo,rdquo
+ enable_coderay: false
+
+
+
+
+# Sass/SCSS
+sass:
+ sass_dir: _sass
+ style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+
+
+
+
+# Plugins (previously gems:)
+plugins:
+ - jekyll-sitemap
+ - jekyll-gist
+ - jekyll-feed
+ - jekyll-include-cache
+
+
+# mimic GitHub Pages with --safe
+whitelist:
+ - jekyll-sitemap
+ - jekyll-gist
+ - jekyll-feed
+ - jekyll-include-cache
+
+
+
+
+
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+ clippings: all
+ ignore:
+   envs: development
+
+
+# Defaults
+defaults:
+ - scope:
+     path: "_pages"
+     type: "pages"
+   values:
+     layout: "page"
+
+
+
+
+
+
+# Analytics
+analytics:
+ provider: # false (default), "google", "google-universal", "google-tag-manager", "custom"
+ google:
+   tracking_id:
+   anonymize_ip: # true, false (default)
+
+
+
+
+Page__hero.html
+{% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+
+
+{% if page.header.overlay_filter contains "gradient" %}
+ {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+{% elsif page.header.overlay_filter contains "rgba" %}
+ {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+ {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% elsif page.header.overlay_filter %}
+ {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
+ {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% endif %}
+
+
+{% if page.header.image_description %}
+ {% assign image_description = page.header.image_description %}
+{% else %}
+ {% assign image_description = page.title %}
+{% endif %}
+
+
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+
+<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
+    style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}; min-height: 100vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+ {% if page.header.overlay_color or page.header.overlay_image %}
+   <div class="wrapper">
+     <h1 id="page-title" class="page__title page__title--painted" itemprop="headline" data-aos="fade-up">
+         {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+     </h1>
+     {% if page.header.show_overlay_excerpt != false and page.excerpt %}
+       <p data-aos="fade-left" class="page__lead" style="margin-top: 2em; margin-bottom: 2em;">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+     {% endif %}
+     {% if page.header.actions %}
+     <div style="text-align: center">
+       <p>
+       {% for action in page.header.actions %}
+         <a data-aos="fade-right" href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large" {% if action.blank %} target="_blank" rel="noopener noreferrer nofollow"{% endif %}>{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+       {% endfor %}
+     </div>
+     {% endif %}
+   </div>
+ {% else %}
+   <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+ {% endif %}
+ {% if page.header.caption %}
+   <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+ {% endif %}
+</div>
