@@ -1,3 +1,7 @@
 .wrapper {
     max-width: 90%;
 }
+
+.pswd-bold {
+    font-weight: bold;
+}

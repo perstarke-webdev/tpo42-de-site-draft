@@ -5,7 +5,7 @@ permalink: /resources
 header:
   overlay_image: /assets/images/header.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
-  subtitle: "Beispiele, Dokumentation und weitere Links"
+  excerpt: "Beispiele, Dokumentation und weitere Links"
 gallery:
   - url: /assets/images/header.webp
     image_path: /assets/images/header.webp
