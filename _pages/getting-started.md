@@ -2,10 +2,13 @@
 layout: page
 title: "Getting Started mit TPO42"
 permalink: /getting-started
+header:
+  overlay_image: /assets/images/header.webp
+  overlay_filter: rgba(0, 0, 0, 0.5)
 ---
 
-<section class="site-section first-section" data-aos="fade-up">
-  <div class="container">
+<section class="site-section first-section">
+  <div class="container" data-aos="fade-up">
     <div class="row">
       <div class="col-md-12">
         <h1>Getting Started</h1>
@@ -17,8 +20,8 @@ permalink: /getting-started
 
 <hr class="section-sep">
 
-<section class="site-section" data-aos="fade-left">
-  <div class="container">
+<section class="site-section">
+  <div class="container" data-aos="fade-left">
     <div class="row">
       <div class="col-md-12">
         <h2>Voraussetzungen</h2>
@@ -51,8 +54,8 @@ permalink: /getting-started
 
 <hr class="section-sep">
 
-<section class="site-section" data-aos="fade-right">
-  <div class="container">
+<section class="site-section">
+  <div class="container" data-aos="fade-right">
     <div class="row">
       <div class="col-md-12">
         <h2>Quick Start</h2>

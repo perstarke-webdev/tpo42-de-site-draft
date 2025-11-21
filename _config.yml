@@ -12,7 +12,7 @@ oneflow-skin    : "tpo42" # "default", "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "de"
 title                    : "TPO42 Framework"
 title_separator          : "-"
-subtitle                 : "Der pragmatische Weg von Requirements zur Architektur" # Displayed in the masthead below the title, use " " for no subtitle
+subtitle: " " # Displayed in the masthead below the title, use " " for no subtitle
 url                      : "https://www.tpo42.de" # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "tpo42/tpo42-templates" # GitHub username/repo-name

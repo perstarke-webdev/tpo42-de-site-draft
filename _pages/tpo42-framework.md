@@ -2,10 +2,13 @@
 layout: page
 title: "tpo42 Framework"
 permalink: /tpo42-framework
+header:
+  overlay_image: /assets/images/header.webp
+  overlay_filter: rgba(0, 0, 0, 0.5)
 ---
 
-<section class="site-section first-section" data-aos="fade-up">
-  <div class="container">
+<section class="site-section first-section">
+  <div class="container" data-aos="fade-up">
     <div class="row">
       <div class="col-md-12">
         <h1>Was ist tpo42?</h1>
@@ -33,8 +36,8 @@ permalink: /tpo42-framework
 
 <hr class="section-sep">
 
-<section class="site-section" data-aos="fade-left">
-  <div class="container">
+<section class="site-section">
+  <div class="container" data-aos="fade-left">
     <div class="row">
       <div class="col-md-12">
         <h2>Lizenz & Referenzen</h2>
