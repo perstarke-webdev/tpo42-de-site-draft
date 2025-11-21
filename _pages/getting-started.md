@@ -8,8 +8,6 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.5)
 ---
 
-<hr class="section-sep">
-
 <section class="site-section">
   <div class="container" data-aos="fade-left">
     <div class="row">
