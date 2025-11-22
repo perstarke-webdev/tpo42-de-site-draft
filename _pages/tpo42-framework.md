@@ -4,7 +4,7 @@ title: "TPO42 Framework"
 permalink: /tpo42-framework
 excerpt: "TPO42 entstand aus der praktischen Notwendigkeit heraus, die Lücke zwischen Product Management und Software Architecture zu schließen."
 header:
-  overlay_image: /assets/images/header.webp
+  overlay_image: /assets/images/framework.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
 ---
 

@@ -4,7 +4,7 @@ title: "Ressourcen"
 permalink: /resources
 excerpt: "Beispiele, Dokumentation und weitere Links"
 header:
-  overlay_image: /assets/images/header.webp
+  overlay_image: /assets/images/resources.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
   actions:
       - label: "Zu den Docs"

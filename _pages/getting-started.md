@@ -4,7 +4,7 @@ title: "Getting Started mit TPO42"
 permalink: /getting-started
 excerpt: "Das TPO42-Template ist in einem frühen Work-In-Progress Stadium. Als allererste Zielgruppe peilen wir Hands-On Technical Product Owner an, die das **Documentation as Code** Paradigma genauso lieben wie wir. GitOps ist der Weg."
 header:
-  overlay_image: /assets/images/header.webp
+  overlay_image: /assets/images/getting-started.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
 ---
 
