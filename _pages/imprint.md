@@ -4,23 +4,14 @@ title: Impressum und Datenschutz
 permalink: /imprint
 ---
 
-#### German Imprint
-This imprint & privacy note is in German, as the responsible person is German, and it's therefore
-required by German Law. Contact me or use translation tools for an english version. 
-
-<hr>
-
 #### Anbieter und Verantwortliche Person
 Jens Rehsack
 
 #### Kontakt
-e-Mail: info@TPO42.de
-<br>  
-  
-[Website](https://www.TPO42.de/)   
+e-Mail: info_at_tpo42.de
 
 
-  
+
 ## Datenschutzerklärung
 
 #### Geltungsbereich
@@ -40,7 +31,7 @@ Der Anbieter behält sich jedoch vor, die Protokolldaten nachträglich zu überp
 
 #### CDN-Nutzung:
 
-Diese Website wird über ein Content Delivery Network (CDN) bereitgestellt, um die Ladezeiten der Website zu optimieren und die Verfügbarkeit von Inhalten sicherzustellen.
+Diese Website wird über GitHub Pages gehostet, und somit ein Content Delivery Network (CDN) bereitgestellt, um die Ladezeiten der Website zu optimieren und die Verfügbarkeit von Inhalten sicherzustellen.
 
 Durch die Nutzung dieser Website erklären Sie sich damit einverstanden, dass einige Ihrer nicht-persönlichen Daten, wie die IP-Adresse und Informationen zur Seitennutzung, über das CDN übertragen werden können, um eine optimale Leistung der Website zu gewährleisten. Diese Datenübertragung erfolgt in Übereinstimmung mit den geltenden Datenschutzbestimmungen.
 

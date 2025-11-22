@@ -25,37 +25,28 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-<section class="site-section first-section">
-  <div class="container" data-aos="fade-up">
-    <h2>Beispiele</h2>
-    {% include gallery %}
-  </div>
-</section>
+<div data-aos="fade-up">
+<h1>Beispiele</h1>
+{% include gallery %}
+</div>
 
 <hr class="section-sep">
 
-<section class="site-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="box-container">
-          <div class="box box--info box-half" data-aos="zoom-in">
-            <h3>Dokumentation</h3>
-            <p>Ausführliche Dokumentation des TPO42 Frameworks.</p>
-            <a href="#" class="btn btn--info" target="_blank" rel="noopener noreferrer nofollow">Lesen</a>
-          </div>
-          <div class="box box--success box-half" data-aos="zoom-in">
-            <h3>Blog</h3>
-            <p>Aktuelle Artikel und Neuigkeiten rund um TPO42.</p>
-            <a href="#" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">Besuchen</a>
-          </div>
-          <div class="box box--warning box-half" data-aos="zoom-in">
-            <h3>GitHub</h3>
-            <p>Der Quellcode und die Templates des TPO42 Frameworks.</p>
-            <a href="https://github.com/TPO42/TPO42-templates" target="_blank" rel="noopener noreferrer nofollow" class="btn btn--warning">Ansehen</a>
-          </div>
-        </div>
-      </div>
-    </div>
+<h1>Weitere Links</h1>
+<div class="box-container">
+  <div class="box box--info box-half" data-aos="zoom-in">
+    <h3>Dokumentation</h3>
+    <p>Ausführliche Dokumentation des tpo42 Frameworks.</p>
+    <a href="#" class="btn btn--info" target="_blank" rel="noopener noreferrer nofollow">Lesen</a>
   </div>
-</section>
+  <div class="box box--success box-half" data-aos="zoom-in">
+    <h3>Blog</h3>
+    <p>Aktuelle Artikel und Neuigkeiten rund um tpo42.</p>
+    <a href="#" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">Besuchen</a>
+  </div>
+  <div class="box box--warning box-half" data-aos="zoom-in">
+    <h3>GitHub</h3>
+    <p>Der Quellcode und die Templates des tpo42 Frameworks.</p>
+    <a href="https://github.com/TPO42/TPO42-templates" target="_blank" rel="noopener noreferrer nofollow" class="btn btn--warning">Ansehen</a>
+  </div>
+</div>

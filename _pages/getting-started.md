@@ -1,18 +1,17 @@
 ---
 layout: page
-title: "Getting Started mit TPO42"
+title: "Getting Started mit tpo<span class='red'>42</span>"
 permalink: /getting-started
-excerpt: "Das TPO42-Template ist in einem frühen Work-In-Progress Stadium. Als allererste Zielgruppe peilen wir Hands-On Technical Product Owner an, die das **Documentation as Code** Paradigma genauso lieben wie wir. GitOps ist der Weg."
+excerpt: "Das tpo<span class='red'>42</span>-Template ist in einem frühen Work-In-Progress Stadium. Als allererste Zielgruppe peilen wir Hands-On Technical Product Owner an, die das <span class='primary-bold'>Documentation as Code</span> Paradigma genauso lieben wie wir. GitOps ist der Weg."
 header:
   overlay_image: /assets/images/getting-started.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
 ---
 
-<section class="site-section">
-  <div class="container" data-aos="fade-left">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Voraussetzungen</h2>
+<section class="left" Markdown="1">
+
+  <div data-aos="fade-left">
+        <h1>Voraussetzungen</h1>
         <ul>
           <li>Git</li>
           <li>Docker für docToolchain im Docker-Container</li>
@@ -32,26 +31,20 @@ header:
           <p><strong>pre-commit Integration:</strong> Automatisierte Checks für Code- und Commit-Qualität sind essentiell für ein sauberes Documentation-as-Code-Setup.</p>
         </div>
       </div>
-    </div>
-  </div>
-</section>
 
 <hr class="section-sep">
 
-<section class="site-section">
-  <div class="container" data-aos="fade-right">
-    <div class="row">
-      <div class="col-md-12">
+  <div data-aos="fade-right">
         <h2>Quick Start</h2>
-        <p>Detaillierte Anweisungen finden Sie in unserem <a href="https://github.com/TPO42/TPO42-templates/blob/main/README.adoc">GitHub README</a>.</p>
+        <p>Detaillierte Anweisungen finden Sie in unserem <a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/TPO42/TPO42-templates/blob/main/README.adoc">GitHub README</a>.</p>
         <pre><code>git clone https://github.com/TPO42/TPO42-templates.git
 cd TPO42-templates
 # Folgen Sie den Anweisungen im README.adoc</code></pre>
       </div>
-    </div>
-  </div>
 
 <div class="notice--success" data-aos="fade-down">
 <p>Für Technical Product Owner, die Documentation as Code lieben. 🎯</p>
 </div>
+
+
 </section>

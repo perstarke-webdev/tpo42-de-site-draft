@@ -1,48 +1,46 @@
 ---
 layout: page
-title: "TPO42 Framework"
+title: "tpo<span class='red'>42</span> Framework"
 permalink: /tpo42-framework
-excerpt: "TPO42 entstand aus der praktischen Notwendigkeit heraus, die Lücke zwischen Product Management und Software Architecture zu schließen."
+excerpt: "tpo<span class='red'>42</span> entstand aus der praktischen Notwendigkeit heraus, die Lücke zwischen <span class='primary-bold'>Product Management</span> und <span class='primary-bold'>Software Architecture</span> zu schließen."
 header:
   overlay_image: /assets/images/framework.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
 ---
 
 <div class="box box--primary" data-aos="fade-up">
-        <p>TPO42 baut die Brücke zwischen Produktvision und Produktarchitektur.</p>
+<h3>tpo42 baut die Brücke zwischen Produktvision und Produktarchitektur.</h3>
 Während ein arc42 Dokument die Frage:
 <span style="font-style: italic"> "Was sollen wir über unsere Architektur kommunizieren/dokumentieren?" </span> und ein req42 Dokument die Frage:
-<span style="font-style: italic">Warum sollen wir uns über unser Produkt Gedanken machen </span> getrennt beantwortet,
-verbindet TPO42 die Fragen und benutzt das <span style="font-style: italic">"Wie sollen wir kommunizieren/dokumentieren?"</span> weiter.
+<span style="font-style: italic">"Warum sollen wir uns über unser Produkt Gedanken machen"</span> getrennt beantwortet,
+verbindet tpo42 die Fragen und benutzt das <span style="font-style: italic">"Wie sollen wir kommunizieren/dokumentieren?"</span> weiter.
 </div>
 
 
 <div class="notice--primary" data-aos="fade-down">
-  <p><strong>Für wen ist TPO42?</strong> Für Technical Product Owner, die eine pragmatische Lösung für die Dokumentation von Anforderungen und Architektur suchen.</p>
-  <p><strong>Basiert auf Standards:</strong> TPO42 verbindet die bewährten Methoden von req42 und arc42.</p>
+  <p><strong>Für wen ist tpo42?</strong> Für Technical Product Owner, die eine pragmatische Lösung für die Dokumentation von Anforderungen und Architektur suchen.</p>
+  <p><strong>Basiert auf Standards:</strong> tpo42 verbindet die bewährten Methoden von req42 und arc42.</p>
   <p><strong>Open Source:</strong> Das Framework ist Open Source und wird offen entwickelt.</p>
 </div>
 
 <hr class="section-sep">
 
-<section class="site-section">
-  <div class="container" data-aos="fade-left">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Lizenz & Referenzen</h2>
-        <p>Das TPO42 Framework steht unter der <strong>Creative Commons Attribution-ShareAlike 4.0 International License</strong> und verwendet die bewährten Frameworks:</p>
-        <ul>
-          <li><a href="https://req42.de/" target='_blank' rel='noopener noreferrer nofollow'>req42</a> - Requirements Engineering (Dr. Peter Hruschka, Markus Meuten)</li>
-          <li><a href="https://arc42.org/" target='_blank' rel='noopener noreferrer nofollow'>arc42</a> - Architecture Documentation (Dr. Peter Hruschka, Dr. Gernot Starke)</li>
-        </ul>
-        <div class="notice--info">
-          <p><strong>Creative Commons Lizenz:</strong> Sie dürfen das Material teilen, bearbeiten und kommerziell nutzen, solange Sie angemessene Urheber- und Rechteangaben machen und Ihre Beiträge unter derselben Lizenz verbreiten. 
-Ihre eigenen Inhalte, die in TPO42-Templates eingebettet sind, können Sie nach Ihren eigenen Regeln verwenden und veröffentlichen.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<section class="left" Markdown="1">
+
+<div data-aos="fade-left">
+
+<h2>Lizenz & Referenzen</h2>
+<p>Das tpo42 Framework steht unter der <strong>Creative Commons Attribution-ShareAlike 4.0 International License</strong> und verwendet die bewährten Frameworks:</p>
+<ul>
+  <li><a href="https://req42.de/" target='_blank' rel='noopener noreferrer nofollow'>req42</a> - Requirements Engineering (Dr. Peter Hruschka, Markus Meuten)</li>
+  <li><a href="https://arc42.org/" target='_blank' rel='noopener noreferrer nofollow'>arc42</a> - Architecture Documentation (Dr. Peter Hruschka, Dr. Gernot Starke)</li>
+</ul>
+<div class="notice--info">
+  <p><strong>Creative Commons Lizenz:</strong> Sie dürfen das Material teilen, bearbeiten und kommerziell nutzen, solange Sie angemessene Urheber- und Rechteangaben machen und Ihre Beiträge unter derselben Lizenz verbreiten. 
+Ihre eigenen Inhalte, die in tpo42-Templates eingebettet sind, können Sie nach Ihren eigenen Regeln verwenden und veröffentlichen.</p>
+</div>
+
+</div>
 
 <hr class="section-sep">
 
@@ -79,3 +77,4 @@ erhalten zu dem blauen noch einen roten Aspekt*
   <img src="/assets/images/req42-arc42-redundancy.png" alt="req42 arc42 redundancy">
 </a>
 
+</section>
