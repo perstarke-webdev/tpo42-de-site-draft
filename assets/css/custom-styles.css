@@ -5,3 +5,12 @@
 .pswd-bold {
     font-weight: bold;
 }
+
+.excerpt-link {
+    color: white;
+}
+
+.excerpt-link:hover {
+    color: #00B8F5;
+}
+
