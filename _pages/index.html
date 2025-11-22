@@ -23,7 +23,17 @@ round-images:
   - image-path: "/assets/images/header.webp"
     size: "third"
     header: "Open Source"
+
+
+image-text-row:
+  - header: "Hinter TPO42"
+    excerpt: "Platzhalter: Optionale kurze Vorstellung von dir/Jens, muss natürlich nicht, empfehle ich aber :)"
+    image-url: "/assets/images/header.webp"
+    alt-text: "alternative text for the image"
+    image-width: "400px"
+    image-right: false
 ---
+
 
 <section class="site-section first-section" id="was-ist-tpo42">
   <div class="container" data-aos="fade-up">
@@ -38,7 +48,6 @@ round-images:
           <li>✅ <strong>Dokumentation</strong> die beide Welten verbindet</li>
         </ul>
         <p>Deshalb baut TPO42 die Brücke zwischen Produktvision und Produktarchitektur.</p>
-        {% include image-text-row image-url="/assets/images/header.webp" alt-text="TPO42" image-width="400px" image-right=true excerpt="Das TPO42 Framework hilft, diese Welten zu verbinden." %}
       </div>
     </div>
   </div>
@@ -74,3 +83,11 @@ round-images:
   </div>
 </section>
 
+
+<hr class="section-sep">
+
+<section class="site-section">
+
+  {% include image-text-row %}
+
+</section>

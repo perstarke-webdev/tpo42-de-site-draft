@@ -2,7 +2,7 @@
 layout: page
 title: "Getting Started mit TPO42"
 permalink: /getting-started
-excerpt: "Das TPO42-Template ist in einem frühen Work-In-Progress Stadium. Als allererste Zielgruppe peilen wir Hands-On Technical Product Owner an, die das Documentation as Code Paradigma genauso lieben, wie wir. GitOps ist der Weg."
+excerpt: "Das TPO42-Template ist in einem frühen Work-In-Progress Stadium. Als allererste Zielgruppe peilen wir Hands-On Technical Product Owner an, die das **Documentation as Code** Paradigma genauso lieben wie wir. GitOps ist der Weg."
 header:
   overlay_image: /assets/images/header.webp
   overlay_filter: rgba(0, 0, 0, 0.5)
@@ -16,7 +16,7 @@ header:
         <ul>
           <li>Git</li>
           <li>Docker für docToolchain im Docker-Container</li>
-          <li><a href="https://pre-commit.com/">pre-commit</a> (dringend empfohlen)</li>
+          <li><a href="https://pre-commit.com/" target="_blank" rel="noopener noreferrer nofollow">pre-commit</a> (dringend empfohlen)</li>
           <li>Text Editor mit AsciiDoc Support:
             <ul>
               <li>VS Code mit AsciiDoc Extension</li>
@@ -28,11 +28,7 @@ header:
         </ul>
         <div class="notice--primary">
           <p><strong>Docker-first Approach:</strong> Wir empfehlen ausschließlich die Verwendung von docToolchain im Docker-Container. Andere Installationsmethoden (lokale Java/Gradle-Installation) sind für erfahrene Nutzer gedacht, die wissen, was sie tun.</p>
-        </div>
-        <div class="notice--info">
           <p><strong>docToolchain Wrapper:</strong> Verwenden Sie das offizielle Wrapper-Skript aus dem docToolchain-Repository für die beste Erfahrung.</p>
-        </div>
-        <div class="notice--success">
           <p><strong>pre-commit Integration:</strong> Automatisierte Checks für Code- und Commit-Qualität sind essentiell für ein sauberes Documentation-as-Code-Setup.</p>
         </div>
       </div>
@@ -54,4 +50,8 @@ cd TPO42-templates
       </div>
     </div>
   </div>
+
+<div class="notice--success" data-aos="fade-down">
+<p>Für Technical Product Owner, die Documentation as Code lieben. 🎯</p>
+</div>
 </section>

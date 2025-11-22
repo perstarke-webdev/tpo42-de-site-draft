@@ -8,34 +8,20 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.5)
 ---
 
-<section class="site-section first-section">
-  <div class="container" data-aos="fade-up">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Was ist TPO42?</h1>
-        <p class="lead">Der <strong>Technical Product Owner</strong> steht vor einer einzigartigen Herausforderung:</p>
-        <ul>
-          <li>✅ <strong>Produktvision</strong> in konkrete Requirements übersetzen</li>
-          <li>✅ <strong>Technische Architektur</strong> mit Business-Zielen abstimmen</li>
-          <li>✅ <strong>Stakeholder</strong> aus verschiedenen Domänen koordinieren</li>
-          <li>✅ <strong>Dokumentation</strong> die beide Welten verbindet</li>
-        </ul>
-        <div class="notice--primary">
-          <p><strong>Für wen ist TPO42?</strong> Für Technical Product Owner, die eine pragmatische Lösung für die Dokumentation von Anforderungen und Architektur suchen.</p>
-          <p><strong>Basiert auf Standards:</strong> TPO42 verbindet die bewährten Methoden von req42 und arc42.</p>
-          <p><strong>Open Source:</strong> Das Framework ist Open Source und wird offen entwickelt.</p>
-        </div>
-<div class="box box--primary">
-        <p>Deshalb baut TPO42 die Brücke zwischen Produktvision und Produktarchitektur.</p>
+<div class="box box--primary" data-aos="fade-up">
+        <p>TPO42 baut die Brücke zwischen Produktvision und Produktarchitektur.</p>
 Während ein arc42 Dokument die Frage:
 <span style="font-style: italic"> "Was sollen wir über unsere Architektur kommunizieren/dokumentieren?" </span> und ein req42 Dokument die Frage:
-<span style="font-style: italic">Warum sollen wir uns über unser Produkt Gedanken machen </span> getrennt beantwortet, 
-verbindet tpo42 die Fragen und benutzt das <span style="font-style: italic">Wie sollen wir kommunizieren/dokumentieren?</span> weiter.
+<span style="font-style: italic">Warum sollen wir uns über unser Produkt Gedanken machen </span> getrennt beantwortet,
+verbindet TPO42 die Fragen und benutzt das <span style="font-style: italic">"Wie sollen wir kommunizieren/dokumentieren?"</span> weiter.
 </div>
-      </div>
-    </div>
-  </div>
-</section>
+
+
+<div class="notice--primary" data-aos="fade-down">
+  <p><strong>Für wen ist TPO42?</strong> Für Technical Product Owner, die eine pragmatische Lösung für die Dokumentation von Anforderungen und Architektur suchen.</p>
+  <p><strong>Basiert auf Standards:</strong> TPO42 verbindet die bewährten Methoden von req42 und arc42.</p>
+  <p><strong>Open Source:</strong> Das Framework ist Open Source und wird offen entwickelt.</p>
+</div>
 
 <hr class="section-sep">
 
@@ -81,7 +67,7 @@ werden wichtiger, Kapitel wie
 - Randbedingungen
 - Produkt-Backlog
 
-erhalten einen zu dem blauen einen roten Aspekt*
+erhalten zu dem blauen noch einen roten Aspekt*
 
 <small>
 *Vergleiche <a href="https://req42.de/req42-im-ueberblick#ergebnisorientiert&#8212;&#8203;nicht-prozessorientiert">req42 im Überblick &gt; Ergebnisorientiert – nicht prozessorientiert</a>
@@ -89,4 +75,7 @@ erhalten einen zu dem blauen einen roten Aspekt*
 
 ## 2. Redundanzen im Überblick
 
-![req42 arc42 redundancy](/assets/images/req42-arc42-redundancy.png)
+<a href="/assets/images/req42-arc42-redundancy.png" data-lightbox="image-1">
+  <img src="/assets/images/req42-arc42-redundancy.png" alt="req42 arc42 redundancy">
+</a>
+
