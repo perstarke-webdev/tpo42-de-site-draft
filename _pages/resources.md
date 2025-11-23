@@ -25,28 +25,51 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-<div data-aos="fade-up">
-<h1>Beispiele</h1>
+<div data-aos="fade-up" markdown="1">
+
+# Beispiele
+
 {% include gallery %}
+
 </div>
 
 <hr class="section-sep">
 
-<h1>Weitere Links</h1>
+# Weitere Links
+
 <div class="box-container">
-  <div class="box box--info box-half" data-aos="zoom-in">
-    <h3>Dokumentation</h3>
-    <p>Ausführliche Dokumentation des tpo42 Frameworks.</p>
-    <a href="#" class="btn btn--info" target="_blank" rel="noopener noreferrer nofollow">Lesen</a>
-  </div>
-  <div class="box box--success box-half" data-aos="zoom-in">
-    <h3>Blog</h3>
-    <p>Aktuelle Artikel und Neuigkeiten rund um tpo42.</p>
-    <a href="#" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">Besuchen</a>
-  </div>
-  <div class="box box--warning box-half" data-aos="zoom-in">
-    <h3>GitHub</h3>
-    <p>Der Quellcode und die Templates des tpo42 Frameworks.</p>
-    <a href="https://github.com/TPO42/TPO42-templates" target="_blank" rel="noopener noreferrer nofollow" class="btn btn--warning">Ansehen</a>
-  </div>
+
+<div class="box box--info box-half" data-aos="zoom-in" markdown="1">
+
+### Dokumentation
+
+Ausführliche Dokumentation des tpo42 Frameworks.
+
+<a href="#" class="btn btn--info" target="_blank" rel="noopener noreferrer nofollow">Lesen</a>
+
+</div>
+
+<div class="box box--success box-half" data-aos="zoom-in" markdown="1">
+
+### Blog
+
+Aktuelle Artikel und Neuigkeiten rund um tpo42.
+
+<a href="#" class="btn btn--success" target="_blank" rel="noopener noreferrer nofollow">Besuchen</a>
+
+</div>
+
+<div class="box box--warning box-half" data-aos="zoom-in" markdown="1">
+
+### GitHub
+
+Der Quellcode und die Templates des tpo42 Frameworks.
+
+<a href="https://github.com/TPO42/TPO42-templates"
+target="_blank"
+rel="noopener noreferrer nofollow"
+class="btn btn--warning">Ansehen</a>
+
+</div>
+
 </div>
