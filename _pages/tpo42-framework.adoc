@@ -54,8 +54,9 @@ header:
 
 == Lizenz & Referenzen
 
-Das tpo42 Framework steht unter der **Creative Commons Attribution-ShareAlike 4.0 International License** +
+Das tpo42 Framework steht unter der pass:t[<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow">Creative Commons Attribution-ShareAlike 4.0 International License</a>] +
 und verwendet die bewährten Frameworks:
+
 
 ++++
 <ul>
@@ -76,7 +77,7 @@ und verwendet die bewährten Frameworks:
 <div class="notice--info">
 
   <p>
-    <strong>Creative Commons Lizenz:</strong><br>
+    <strong>Creative Commons Lizenz (CC BY-SA 4.0):</strong><br>
     Sie dürfen das Material teilen, bearbeiten und kommerziell nutzen, solange Sie angemessene Urheber- und Rechteangaben machen
     und Ihre Beiträge unter derselben Lizenz verbreiten.<br>
     Ihre eigenen Inhalte, die in tpo42-Templates eingebettet sind, können Sie nach Ihren eigenen Regeln verwenden und veröffentlichen.
