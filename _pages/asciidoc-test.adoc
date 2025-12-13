@@ -1,0 +1,117 @@
+---
+title: AsciiDoc Content Test
+layout: page
+permalink: /asciidoc-test
+---
+
+= AsciiDoc Content Test
+:toc:
+:toclevels: 3
+
+This page exists to verify that *AsciiDoc* content works correctly inside the OneFlow theme.
+It intentionally covers the most common content patterns used in real client documentation.
+
+== Text & Formatting
+
+AsciiDoc supports strong semantic formatting.
+
+*Bold text*
+_Italic text_
+`Inline code`
+A link to https://jekyllrb.com[Jekyll] and https://asciidoctor.org[Asciidoctor].
+
+You can also create line breaks +
+like this.
+
+== Lists
+
+=== Unordered list
+
+* First item
+* Second item
+** Nested item
+** Nested item
+* Third item
+
+=== Ordered list
+
+. Step one
+. Step two
+. Step three
+
+== Callouts & Admonitions
+
+TIP: This is a tip. Useful for hints or recommendations.
+
+NOTE: This is a note. Neutral additional information.
+
+IMPORTANT: This highlights something the reader must not miss.
+
+WARNING: This indicates a potential risk or pitfall.
+
+== Code Blocks
+
+[source,python]
+----
+def greet(name):
+    return f"Hello {name}"
+
+print(greet("AsciiDoc"))
+----
+
+[source,yaml]
+----
+title: Example
+enabled: true
+items:
+  - one
+  - two
+----
+
+== Tables
+
+[cols="1,2",options="header"]
+|===
+| Field | Description
+
+| Title
+| Page title displayed in the browser and navigation
+
+| Layout
+| Jekyll layout used to render the page
+
+| Permalink
+| Final URL path of the page
+|===
+
+== Images
+
+image::/assets/images/logo.webp[Site Logo, width=200]
+
+== Quotes
+
+[quote, Peter Drucker]
+____
+The best way to predict the future is to create it.
+____
+
+== Anchors & References
+
+You can create anchors manually.
+
+[[custom-anchor]]
+=== Custom Anchor Section
+
+You can link to it using:
+<<custom-anchor,Jump to custom anchor>>
+
+== Final Notes
+
+This page should render:
+
+* With correct typography
+* With OneFlow styles applied
+* Without breaking the layout
+* Using the standard `page` layout
+
+If this works, your AsciiDoc pipeline is production-ready.
