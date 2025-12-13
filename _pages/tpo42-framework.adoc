@@ -91,7 +91,7 @@ und verwendet die bewährten Frameworks:
 <hr class="section-sep">
 ++++
 
-= Das Framework
+== Das Framework
 
 == 1. Struktur
 
